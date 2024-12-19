@@ -30,19 +30,22 @@ const promptPromise = {
 // como un árbol:
 // Para evitarlo, se puede hacer el promptPromise
 
-/* 
-SIN promptPromise
 
-prompt.question('Cuál es tu numero favorito? ', (respuesta) => {
+/* SIN promptPromise */
+
+/* prompt.question('Cuál es tu numero favorito? ', (respuesta) => {
     console.log(`El doble de tu numero favorito es: ${parseInt(respuesta) * 2}`);
 
     prompt.question('Cuál es tu color favorito? ', (respuesta) => {
         console.log(`Tu color favorito es: ${respuesta}`);
-    
-        prompt.close(); // cierra la consola
+
+        prompt.question('Cuál es tu SEGUNDO color favorito? ', (respuesta) => {
+            console.log(`Tu SEGUNDO color favorito es: ${respuesta}`);
+        
+            prompt.close(); // cierra la consola
+        });
     });
-});
- */
+}); */
 
 
 /*  CON promptPromise: */
@@ -55,6 +58,10 @@ async function askUser() {
     // agregando otra pregunta:
     const color = await promptPromise.question('Cuál es tu color favorito? ');
     console.log(`Tu color favorito es: ${color}`);
+
+    // agregando otra pregunta:
+    const colorSecundario = await promptPromise.question('Cuál es tu SEGUNDO color favorito? ');
+    console.log(`Tu SEGUNDO color favorito es: ${colorSecundario}`);
 
     promptPromise.close();
 }
