@@ -31,7 +31,7 @@ después utilizar:
             DATABASE_PASSWORD=10212jasoaos1LASA
 
     - __NODE_ENV__: Define el entorno de la aplicación.
-    - __S3_BUCKET__: A qué nube se va a almacenar el archivo.
+    - __S3_BUCKET__: En qué nube se va a almacenar el archivo.
     - __API_KEY__: Clave de acceso para autenticar solicitudes a una API.
     - __DATABASE_USER__: Nombre de usuario para acceder a BBDD.
     - __DATABASE_PASSWORD__: Contraseña asociada al nombre del usuario para acceder a la BBDD.
