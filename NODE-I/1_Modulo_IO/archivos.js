@@ -6,10 +6,10 @@ const path = require('path');
 // verifico el proceso que está ejecutando: process.cwd()
 // entro a la carpeta 'NODE-I'
 // busco el archivo "texto.txt"
-const filePath = path.join(process.cwd(), 'NODE-I', 'texto.txt');
+const filePath = path.join(process.cwd(), 'NODE-I', '1_MODULO_IO', 'texto.txt');
 
 // para guardar un archivo, hacer otra variable:
-const fileOutPath = path.join(process.cwd(), 'NODE-I', 'texto-con-lineas.txt');
+const fileOutPath = path.join(process.cwd(), 'NODE-I', '1_MODULO_IO', 'texto-con-lineas.txt');
 
 console.log(filePath);
 
