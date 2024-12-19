@@ -1,12 +1,13 @@
-# BACKEND con ADATECH
+# 👩‍💻 BACKEND con ADATECH
 
 ## Arrancar con npm:
     npm init
-o utilizar:
+
+__(OPCIONAL)__ Si no querés responder preguntas sobre el proyecto, en lugar de _npm init_, utilizar:
 
     npm init -y
 
-después utilizar:
+Después, utilizar:
 
     npm install
 
