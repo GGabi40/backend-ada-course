@@ -22,7 +22,7 @@ después utilizar:
 
     - Crear un archivo __.env__ y agregarlo al __.gitignore__ para evitar que se haga pública la información del archivo.
     - Es muy importante para mantener la seguridad de los datos __sensibles__.
-    - Ejemplo de un .env (DATOS FALSOS):
+    - Ejemplo de un .env __(DATOS FALSOS)__:
 
             NODE_ENV=development 
             S3_BUCKET=meus-assets
