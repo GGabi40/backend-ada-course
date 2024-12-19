@@ -60,13 +60,3 @@ async function askUser() {
 }
 
 askUser();
-
-/* promptPromise.question('Cuál es tu numero favorito? ', (respuesta) => {
-    console.log(`El doble de tu numero favorito es: ${parseInt(respuesta) * 2}`);
-
-    prompt.question('Cuál es tu color favorito? ', (respuesta) => {
-        console.log(`Tu color favorito es: ${respuesta}`);
-    
-        prompt.close(); // cierra la consola
-    });
-}); */
