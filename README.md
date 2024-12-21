@@ -12,3 +12,13 @@ Después, utilizar:
     npm install
 
 ----
+## 📚 Paquetes utilizados:
+
+Los paquetes se descargan y se instalan en la carpeta "node_modules".
+
+* eslint: Es necesario tener la extensión "ESLint" (dicta los patrones de ECMAScript) y "Prettier".
+* eslint-config-prettier
+* eslint-plugin-prettier
+
+        npm i -D eslint eslint-config-prettier eslint-plugin-prettier
+        npx eslint --init
