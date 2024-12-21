@@ -25,5 +25,8 @@ Los paquetes se descargan y se instalan en la carpeta "node_modules".
 
 ----
 ## 📚 Plugins recomendados:
+
 * editorconfig: Genera un estándar para lineas, etc. (Crear un archivo __.editorconfig__ con las configuraciones deseadas).
 * Prettier: Genera un estándar para el código.
+* Thunder Client: Hace requisiciones HTTP.
+    - Ejemplos de Requisiciones: https://jsonplaceholder.typicode.com/
