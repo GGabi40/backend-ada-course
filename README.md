@@ -12,7 +12,7 @@ Después, utilizar:
     npm install
 
 ----
-## 📚 Paquetes utilizados:
+## 📚 Paquetes recomendados:
 
 Los paquetes se descargan y se instalan en la carpeta "node_modules".
 
@@ -22,3 +22,5 @@ Los paquetes se descargan y se instalan en la carpeta "node_modules".
 
         npm i -D eslint eslint-config-prettier eslint-plugin-prettier
         npx eslint --init
+    
+    _.: No lo uso porque no me gusta :._
