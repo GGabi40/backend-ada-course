@@ -22,5 +22,8 @@ Los paquetes se descargan y se instalan en la carpeta "node_modules".
 
         npm i -D eslint eslint-config-prettier eslint-plugin-prettier
         npx eslint --init
-    
-    _.: No lo uso porque no me gusta :._
+
+----
+## 📚 Plugins recomendados:
+* editorconfig: Genera un estándar para lineas, etc. (Crear un archivo __.editorconfig__ con las configuraciones deseadas).
+* Prettier: Genera un estándar para el código.
