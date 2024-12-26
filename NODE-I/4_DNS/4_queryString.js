@@ -1,4 +1,5 @@
 const queryString = require('querystring');
+const url = require('url');
 
 const baseurl = 'https://sitedeviajes.com.br';
 
@@ -7,12 +8,17 @@ const uri = queryString.stringify({
     periodo: 'Verano'
 })
 
-const url = `${baseurl}/${uri}`;
 
-console.log(url);
+const fullURL = `${baseurl}/${uri}`;
+
+console.log(fullURL);
 
 const parsedUri = queryString.parse(uri);
 console.log(parsedUri);
+
+console.log(url.parse(fullURL)); // Me dice toda la información de la URL
+
+
 
 // -- Formatación Unicode (Es mejor utilizar sin formatación)
 const uri2 = queryString.escape('Sáo Paulo');
