@@ -38,5 +38,7 @@
 
         npm install luxon
 
+        npm docs luxon
+
 
 
