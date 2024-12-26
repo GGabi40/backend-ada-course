@@ -25,3 +25,10 @@
         - __API_KEY__: Clave de acceso para autenticar solicitudes a una API.
         - __DATABASE_USER__: Nombre de usuario para acceder a BBDD.
         - __DATABASE_PASSWORD__: Contraseña asociada al nombre del usuario para acceder a la BBDD.
+
+
+* __nodemon__: Abrir servidores Node con más facilidad.
+
+        npm install -D nodemon
+
+    - Para correr el servidor:  npx nodemon .\NODE-I\nombreDelaCarpeta\nombreDelArchivo.js
